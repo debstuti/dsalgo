@@ -1,5 +1,5 @@
-class Solution {
-    public int shipWithinDays(int[] weights, int D) {
+class CapToShipPackages{
+    public static int shipWithinDays(int[] weights, int D) {
         int low= 0;
         int high =0;
         for(int num:weights){
@@ -19,7 +19,7 @@ class Solution {
         }
         return low;
     }
-    private int getDayCount(int[] weights, int cap, int D){
+    private static int getDayCount(int[] weights, int cap, int D){
         int wt=0;
         int day=1;
         for(int i=0;i<weights.length;i++){
@@ -37,7 +37,8 @@ class Solution {
     }
     public static void main(String args[]){
         int[] weights ={1,2,3,4,5,6,7,8,9,10};
-        shipWithinDays(weights,5
+        int capacityOfShip = shipWithinDays(weights,5);
+	System.out.println(capacityOfShip);
         
     }
 }
