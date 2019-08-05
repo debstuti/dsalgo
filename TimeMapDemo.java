@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 class TimeMap {
     Map<String, ArrayList<Node>> map;
     /** Initialize your data structure here. */
@@ -52,7 +55,12 @@ class Node{
     }
 }
 class TimeMapDemo{
-  TimeMap obj = new TimeMap();
-  obj.set(key,value,timestamp);
-  String param_2 = obj.get(key,timestamp);
+  public static void main(String args[]){
+  	TimeMap obj = new TimeMap();
+  	obj.set("foo","bar",5);
+	obj.set("foo","bar2",8);
+  	String param_2 = obj.get("foo",10);
+	System.out.println(param_2);
+	}
  }
+
