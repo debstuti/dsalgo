@@ -4,7 +4,15 @@ public class MyHashMapDemo {
         MyHashMap obj = new MyHashMap();
     obj.put(1,1);
     int param_2 = obj.get(1);
+    System.out.println("1->"+obj.get(1));
     obj.remove(2);
+    System.out.println("2->"+obj.get(2));
+    obj.put(3,3);
+    obj.put(3,4);
+    System.out.println("3->"+obj.get(3));
+    obj.remove(3);
+    System.out.println("3->"+obj.get(3));
+
     }
 }
 class MyHashMap {
