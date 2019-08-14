@@ -3,11 +3,9 @@ class TreeNode{
     int val;
     TreeNode left;
     TreeNode right;
-    int label;
     TreeNode(int val){
         this.val = val;
         this.left=this.right=null;
-        this.label =0;
     }
 }
 
