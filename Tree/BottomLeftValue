@@ -1,0 +1,47 @@
+
+import java.util.Queue;
+import java.util.LinkedList;
+//Definition for a binary tree node.
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
+class BottomLeftValue {
+    public static int findBottomLeftValue(TreeNode root) {
+        if(root==null)
+            return -1;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+        int currentQueueSize=1;
+        int left=root.val;
+        while(currentQueueSize>0){
+            TreeNode tmp=queue.remove();
+            currentQueueSize--;
+            if(tmp.left !=null){
+                queue.add(tmp.left);
+            }
+            if(tmp.right !=null){
+                queue.add(tmp.right);
+            }
+            if(currentQueueSize==0){
+                currentQueueSize=queue.size();
+                if(currentQueueSize>0){
+                    left=queue.peek().val;
+                }
+            }
+        }
+        return left;
+    }
+
+    public static void main(String[] args){
+        TreeNode root = new TreeNode(1);
+        root.left=new TreeNode(2);
+        root.right=new TreeNode(3);
+        root.right.left=new TreeNode(4);
+        System.out.println(findBottomLeftValue(root));
+    }
+
+}
