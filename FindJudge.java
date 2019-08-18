@@ -13,7 +13,7 @@ If the town judge exists and can be identified, return the label of the town jud
 
 https://leetcode.com/problems/find-the-town-judge/
 
-judge Node will have 0 outdegree , and N-1 indegree
+ Idea : judge Node will have 0 outdegree , and N-1 indegree 
 
 **/
 
