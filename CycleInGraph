@@ -1,0 +1,83 @@
+/**
+Find cycle in a Graph. Graph is represented as an adjacency list
+
+DFS solution to find cycle
+**/
+
+
+import java.util.HashSet;
+import java.util.Set;
+
+class CycleInGraph {
+	
+	static Set<Integer> white = new HashSet<Integer>();
+	static Set<Integer> gray = new HashSet<Integer>();
+	static Set<Integer> black = new HashSet<Integer>();
+	
+	public static void main(String[] args){
+		System.out.println(findCycle());
+	}
+	
+	/**
+	 * 
+	 * @return boolean : cycle exists or not
+	 */
+	public static boolean findCycle(){
+		int[][] graph = {{1,2}, {3}, {3}, {4}, {2}}; // adjacency list of graph
+		
+		
+		for(int i=0;i<graph.length;i++){
+			white.add(i);
+		}
+		
+		for(int i=0;i< graph.length;i++){
+			if(white.contains(i)){
+				boolean hasCircle = helper(i, graph);
+				if(hasCircle)
+					return true;
+			}
+		}
+		return false;
+	}
+	/**
+	 * 
+	 * @param vertex
+	 * @param graph
+	 * @return 
+	 */
+	public static  boolean helper(int vertex, int[][] graph ){
+			white.remove(vertex);
+			gray.add(vertex);
+			
+			boolean found = false;
+			
+			int[] adj = graph[vertex];
+			if(adj.length==0 ){
+				black.add(vertex);
+				return false;
+			}
+			int count=0;
+			for(int adjVertex: adj){
+				
+				if(gray.contains(adjVertex)){
+					return true;
+				}
+				if(black.contains(adjVertex)){
+					count++;
+					continue;
+				}
+				if(white.contains(adjVertex)){
+					found = helper(adjVertex, graph);
+					if(found)
+						return true;
+				}
+				
+				
+			}
+			if(count==adj.length)
+				black.add(vertex);
+			
+			return false;
+		
+	}
+}
