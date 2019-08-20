@@ -3,8 +3,23 @@ package dsalgo;
 import java.util.HashSet;
 
 import java.util.Set;
-
-class QuickSort {
+/**
+ * Complexity : 
+ * 	Best Case: when pivot is placed in middle every time after partition,
+ * 				Each partition takes almost O(n) - total n elements we have to traverse combining both left & right subpart
+ * 				recursive call happens logn time (height of the tree formed)
+ * 				tree is balanced
+ * 				Total : O(nlogn)
+ * Worst case: when array is sorted already, hence pivot is placed in the low or high(depending on our choice)
+ * 			  The tree formed will be skewed and will have height almost n
+ * 				Hence Total complexity : O(n2)
+ * Average Case: O(n2)
+ * 
+ * 
+ * @author debstutidas
+ *
+ */
+class Solution {
 	public static void main(String[] args){
 		int[] arr= {10,6,15,4,9,5,1,7,2,3,8};
 		quickSort(arr,0, arr.length-1);
