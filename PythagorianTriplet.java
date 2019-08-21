@@ -1,4 +1,8 @@
 package dsalgo;
+/*
+
+https://practice.geeksforgeeks.org/problems/pythagorean-triplet/0
+*/
 
 import java.util.Arrays;
 
