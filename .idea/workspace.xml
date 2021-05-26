@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2f6c760-88cc-47ca-83b2-c2a51e958095" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BottomViewTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/BottomViewTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircularListLeaderElection.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/CircularListLeaderElection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClosestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/ClosestSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CycleInGraph" beforeDir="false" afterPath="$PROJECT_DIR$/java/CycleInGraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactorCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/FactorCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FindJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/FindJudge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FindMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/FindMedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HeapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/HeapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InversionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/InversionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KnightsTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/KnightsTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LetterPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/LetterPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongestIncreasingSubSeqNlogn.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/LongestIncreasingSubSeqNlogn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongestSubAtMostKDistinctChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/LongestSubAtMostKDistinctChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MakeRowColZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MakeRowColZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MaxAreaOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxMinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MaxMinArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MaxProductSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCircularDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MyCircularDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MyCircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MyHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/MyHashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NAryTreeMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/NAryTreeMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/NQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NestedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/NestedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NestedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/NestedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeDistanceInBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/NodeDistanceInBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaintHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/PaintHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintListInSequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/java/PrintListInSequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythagorianTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/PythagorianTriplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RemoveLeavesByLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/RemoveLeavesByLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseListKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/ReverseListKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SetLevelPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SetLevelPointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestDistTwoWordsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/ShortestDistTwoWordsInList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallestMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SmallestMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallestSubstringMatchingPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SmallestSubstringMatchingPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/StockBuySell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/StringPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapListInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SwapListInPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/BottomLeftValue" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tree/BottomLeftValue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/BottomViewTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tree/BottomViewTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/IncreasingBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tree/IncreasingBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/LcaOfDeepestLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tree/LcaOfDeepestLeaves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/NodeDistanceInBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tree/NodeDistanceInBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Twitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerticalSumTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/VerticalSumTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordDistance2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/WordDistance2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/WordLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Zigzag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/rightSiblingTree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,5 +48,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
